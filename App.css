@@ -1,0 +1,70 @@
+
+  body {
+    font-family: "DM Sans", serif;
+
+  }
+  h1, h2, h3,h4 {
+    font-family: 'Montserrat', sans-serif;
+  }
+  .pacifico-regular {
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+nav li a{
+font-size: larger;
+}
+
+
+.home-bg{
+  background-image: url(./assets/img/home-bg.png);
+  background-size: cover;
+}
+.shape-bg{
+  background-image: url(./assets/img/shape.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 306px;
+  height: 352px;
+
+}
+
+.thin-text {
+font-size: 22px;
+color: #000000;
+}
+
+.blod-text{
+  font-size: 50px;
+  color: #007AFF;
+}
+
+.thin-p{
+  color: #878787;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.footer{
+  background-image: url(./assets/img/Footerbg.png);
+  background-size: cover;
+}
+
+
+@media (max-width: 575.98px) {
+  .blod-text{
+    font-size: 25px;
+    color: #007AFF;
+  }
+  .thin-text{
+    font-size: 15px;
+  }
+  }
+
+@media (max-width: 767.98px) {  }
+
+@media (max-width: 991.98px) { }
+
+@media (max-width: 1199.98px) { }
+
+@media (max-width: 1399.98px) { }
